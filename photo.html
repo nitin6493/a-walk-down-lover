@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=dvice-width,initial-scale=0.1">
+<html>
+    <head>
+        <title>
+            A Walk Down Lovers Lane 
+        </title>
+        <link rel="stylesheet" href="photo.css">
+        <link rel="icon" href="red-heart.png">
+       
+       
+    </head>
+    <body>
+       
+        <div class="container">
+            <div class="bg-music">
+            <audio  src=".//Agar Tum Saath Ho - Tamasha 320 Kbps.mp3" loop="" controls autoplay>
+                
+            </audio>
+            <button class="btl">
+                <i class="fa-play-circle-o"></i>
+                <i class="fa-pause-circle-o"></i>
+            </button> 
+        </div>      
+
+            <div class="navbar">
+                <img src="Studio8 Img/two-love-birds-with-hearts-73ld.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="her.html">Her</a></li>
+                        <li><a href="his.html">His</a></li>
+                        <li><a href="both.html">both</a></li>
+                    </ul>
+                </nav>
+                    <img src=".//Studio8 Img/menu.png" class="menu-icon">
+               
+               
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="text-box">
+                    <h5>love<img src=".//red-heart.png" width="20px"></h5>
+                    <h1><b>If I know <br>what love is,<br> it is because of you.</b>  </h1>
+                </div>
+                <img src=".//Studio8 Img/circle.png" class="small-icon1">
+                <img src=".//Studio8 Img/circle.png" class="small-icon2">
+                <img src=".//Studio8 Img/square.png" class="small-icon3">    
+            </div>
+
+                <div class="col">
+                    <div class="gallery-box">
+                        <img src=".//output-onlinepngtools(1).png" id="gallery">
+                        <ul>
+                            <li class="btn">T</li>
+                            <li class="btn">A</li>
+                            <li class="btn">N</li>
+                            <li class="btn">U</li>
+                        </ul>
+                    </div>
+
+            
+            </div>
+            <img src=".//Studio8 Img/circle.png" class="small-icon4">
+            <img src=".//Studio8 Img/circle.png" class="small-icon5">
+
+        </div>
+        <script>
+            var btn =document.getElementsByClassName("btn");
+            var gallery=document.getElementById("gallery");
+
+            var images =new Array(
+                ".//png/5.png",
+                ".//png/12.png",
+                ".//png/13.png",
+                ".//png/20.png",
+            );
+            for(let i=0;i<btn.length;i++)
+            {
+                 btn[i].onclick=function()
+                 {
+                      gallery.src=images[i];
+                 };
+            }
+        </script>
+
+    </body>
+</html>

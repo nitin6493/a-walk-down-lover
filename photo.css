@@ -1,0 +1,199 @@
+*{
+    margin:0px;
+    padding:0;
+    font-family:sans-serif;
+}
+
+
+
+
+.container
+{
+   width: 100%;
+   min-height: 100vh;
+   background:linear-gradient(45deg,#22046b,#e14e42);
+   background-blend-mode: overlay;
+   color: #fff;
+   position: relative;
+   overflow: auto;
+   
+
+
+}
+.navbar{
+     width: 90%;
+     height: 15vh;
+     margin: auto;
+     
+     display: flex;
+     align-items: center;
+}
+.menu-icon{
+    width: 30px;    
+    cursor: pointer ;
+    margin-left: 80px;
+    
+    
+}
+
+     
+     .logo{
+         width: 200px;
+         cursor: pointer;
+         
+     }
+     nav{
+         flex:1;
+         text-align: right;
+
+     }
+     nav ul li{
+         list-style:none;
+         display:inline-block;
+         margin-left: 60px;
+     }
+     nav ul li a{
+          text-decoration: none;
+          color: #fff;
+          padding:5px 2px;
+          font-size: 14px;
+     }
+     nav ul li a:hover{
+         color: #e7c82f;
+     }
+     .text-box{
+         max-width: 400px;
+         margin-top: 100px;
+     }
+     .text-box h5{
+        font-size: 20px;
+        color: #e7c82f;
+     }
+     .text-box h1{
+         font-size: 50px;
+         font-weight:100;
+         letter-spacing: 3px;
+         line-height: 65px;
+
+     }
+     
+     .gallery-box{
+         max-width: 400px;
+         position: relative;
+         margin-right:auto;   
+
+     }
+     .gallery-box img{
+         width: 80%;
+         border:10px solid rgba(255,255,255,0.2);
+         box-sizing: border-box;
+         
+
+     }
+     .col{
+         margin:20px 0;
+         flex-basis: 50%;
+         min-width: 300px;
+         height: 100%;
+         position: relative;
+     }
+     .row{
+          width: 80%;
+          min-height: 85vh;
+          margin: auto;
+          display: flex;
+          flex-wrap: wrap;
+     }
+     
+     .small-icon1{
+         width: 15px;
+         position: absolute;
+         right: 200px;
+         top: -10px;
+         opacity: 0.3;
+     }
+     .small-icon2{
+        width: 25px;
+        position: absolute;
+        right: 200px;
+        bottom: -100px;
+        opacity: 0.3;
+    }
+    .small-icon3{
+        width: 25px;
+        position: absolute;
+        right: 50px;
+        top: 200px;
+        opacity: 0.5;
+        transform: rotate(45deg);
+    }
+    .small-icon4{
+        width: 250px;
+        position: absolute;
+        top: 120px;
+        left: -150px;
+        opacity: 0.3;
+        
+    }
+    .small-icon5{
+        width: 25px;
+        position: absolute;
+        bottom: 60px;
+        left: 50px;
+        opacity: 0.3;
+        
+    }
+    .gallery-box ul{
+        position: absolute;
+        right: -100px;
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+.gallery-box ul li
+ {
+     list-style-image: url(.//png/favicon.ico);
+     font-size: 40px;
+     font-weight: bold;
+     padding: 0 30px;
+     margin-bottom: 30px;
+     cursor: pointer;
+     position:relative;
+ }
+ @media screen and (min-width: 480px)
+ {
+     .container{
+         width: 100%;
+     }
+     img{
+         width: 100%;
+     }
+ }
+ .bg-music{
+      position: absolute;
+      top: 64%;
+      left: 0px;
+      right: 0;
+      margin: 0 auto;
+ }
+ .btl{ 
+     background-color: transparent;
+     color: #fff;
+     display: block;
+     margin: 0 auto;
+     font-size: 78px;
+     border: none;
+     opacity: 0.3;
+     transition: all linear .2s;
+ }
+ .btl:hover{
+            
+     opacity: 1;
+ 
+ }
+ .fa-pause-circle-o{ 
+     display: none;
+ }
+ .fa-play-circle-o{
+     display: none;
+ }
